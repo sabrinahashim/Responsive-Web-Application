@@ -1,67 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Landing Page</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SmartWatch Pro Landing Page</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
 <header id="header">
-  <img
-    id="header-img"
-    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-    alt="logo"
-  >
 
-  <nav id="nav-bar">
-    <a class="nav-link" href="#features">Features</a>
-    <a class="nav-link" href="#video-section">Video</a>
-    <a class="nav-link" href="#pricing">Pricing</a>
-  </nav>
+<div class="logo">
+
+<img
+id="header-img"
+src="https://cdn-icons-png.flaticon.com/512/3062/3062634.png"
+alt="SmartWatch Logo">
+
+<h2>SmartWatch Pro</h2>
+
+</div>
+
+<nav id="nav-bar">
+
+<a class="nav-link" href="#features">Features</a>
+
+<a class="nav-link" href="#video-section">Video</a>
+
+<a class="nav-link" href="#pricing">Pricing</a>
+
+</nav>
+
 </header>
 
-<section id="features">
-  <h2>Features</h2>
-  <p>Our product is fast and reliable.</p>
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Future On Your Wrist</h1>
+
+<p>
+
+Experience the next generation smartwatch with premium design,
+advanced health monitoring, GPS tracking and ultra-long battery life.
+
+</p>
+
+<a href="#pricing" class="btn">
+
+Order Now
+
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=700"
+alt="watch">
+
+</div>
+
 </section>
+
+<!-- FEATURES -->
+
+<section id="features">
+
+<h2 class="title">Amazing Features</h2>
+
+<div class="feature-container">
+
+<div class="card">
+
+<h3>❤️ Heart Rate</h3>
+
+<p>
+
+Track your heartbeat in real time with accurate sensors.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🔋 Long Battery</h3>
+
+<p>
+
+Enjoy up to 14 days battery life with fast charging support.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌍 GPS Tracking</h3>
+
+<p>
+
+Navigate confidently with built-in GPS and location services.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>💧 Waterproof</h3>
+
+<p>
+
+Designed for swimming, rain and outdoor adventures.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>📞 Smart Calling</h3>
+
+<p>
+
+Receive calls and notifications directly from your watch.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🏃 Fitness Mode</h3>
+
+<p>
+
+More than 100 sports modes for all your workouts.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- VIDEO -->
 
 <section id="video-section">
-  <h2>Video</h2>
 
-  <iframe
-    id="video"
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/y8Yv4pnO7qc"
-    title="YouTube video player"
-    allowfullscreen>
-  </iframe>
+<h2 class="title">
+
+Watch The Product Demo
+
+</h2>
+
+<div class="video-box">
+
+<iframe
+
+id="video"
+
+width="700"
+
+height="400"
+
+<iframe
+  id="video"
+  width="700"
+  height="400"
+  src="https://www.youtube.com/embed/Y7s2CCg0KZY"
+  title="Smartwatch Review"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+title="Product Video"
+
+allowfullscreen>
+
+</iframe>
+
+</div>
+
 </section>
+
+<!-- PRICING -->
 
 <section id="pricing">
-  <h2>Pricing</h2>
-  <p>Affordable plans for everyone.</p>
+
+<h2 class="title">
+
+Choose Your Plan
+
+</h2>
+
+<div class="price-container">
+
+<div class="price-card">
+
+<h3>Basic</h3>
+
+<h1>$199</h1>
+
+<p>Fitness Tracking</p>
+
+<p>Heart Monitor</p>
+
+<p>1 Year Warranty</p>
+
+<button>
+
+Buy Now
+
+</button>
+
+</div>
+
+<div class="price-card popular">
+
+<h3>Premium</h3>
+
+<h1>$299</h1>
+
+<p>Everything in Basic</p>
+
+<p>GPS Tracking</p>
+
+<p>Bluetooth Calling</p>
+
+<p>2 Year Warranty</p>
+
+<button>
+
+Buy Now
+
+</button>
+
+</div>
+
+<div class="price-card">
+
+<h3>Ultra</h3>
+
+<h1>$399</h1>
+
+<p>All Premium Features</p>
+
+<p>Wireless Charging</p>
+
+<p>Luxury Edition</p>
+
+<p>3 Year Warranty</p>
+
+<button>
+
+Buy Now
+
+</button>
+
+</div>
+
+</div>
+
 </section>
 
-<form
-  id="form"
-  action="https://www.freecodecamp.org/email-submit"
->
-  <input
-    id="email"
-    name="email"
-    type="email"
-    placeholder="Enter your email"
-  >
+<!-- EMAIL -->
 
-  <input
-    id="submit"
-    type="submit"
-    value="Submit"
-  >
+<section class="subscribe">
+
+<h2>
+
+Stay Updated
+
+</h2>
+
+<p>
+
+Get special offers and the latest product news.
+
+</p>
+
+<form
+
+id="form"
+
+action="https://www.freecodecamp.org/email-submit">
+
+<input
+
+id="email"
+
+type="email"
+
+name="email"
+
+placeholder="Enter your email address"
+
+required>
+
+<input
+
+id="submit"
+
+type="submit"
+
+value="Subscribe">
+
 </form>
 
+</section>
+
+<footer>
+
+<p>
+
+© 2026 SmartWatch Pro | Designed by Sabrina Hashim
+
+</p>
+
+</footer>
+
 </body>
+
 </html>
