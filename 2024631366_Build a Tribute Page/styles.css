@@ -1,0 +1,15 @@
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
