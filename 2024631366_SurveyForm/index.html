@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+</head>
+
+<body>
+
+  <h1 id="title">Student Survey Form</h1>
+
+  <p id="description">
+    Please fill out this survey form.
+  </p>
+
+  <form id="survey-form">
+
+    <!-- Name -->
+    <label id="name-label">Name:</label><br>
+    <input 
+      type="text" 
+      id="name" 
+      placeholder="Enter your name" 
+      required><br><br>
+
+    <!-- Email -->
+    <label id="email-label">Email:</label><br>
+    <input 
+      type="email" 
+      id="email" 
+      placeholder="Enter your email" 
+      required><br><br>
+
+    <!-- Number -->
+    <label id="number-label">Age:</label><br>
+    <input 
+      type="number" 
+      id="number" 
+      placeholder="Enter your age" 
+      min="10" 
+      max="100"><br><br>
+
+    <!-- Dropdown -->
+    <label>Choose your role:</label><br>
+    <select id="dropdown">
+      <option value="student">Student</option>
+      <option value="teacher">Teacher</option>
+    </select><br><br>
+
+    <!-- Radio -->
+    <p>Do you like coding?</p>
+    <input type="radio" name="coding" value="yes"> Yes<br>
+    <input type="radio" name="coding" value="no"> No<br><br>
+
+    <!-- Checkbox -->
+    <p>What do you like?</p>
+    <input type="checkbox" value="html"> HTML<br>
+    <input type="checkbox" value="css"> CSS<br>
+    <input type="checkbox" value="js"> JavaScript<br><br>
+
+    <!-- Textarea -->
+    <p>Additional comments:</p>
+    <textarea></textarea><br><br>
+
+    <!-- Submit -->
+    <button id="submit" type="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>
